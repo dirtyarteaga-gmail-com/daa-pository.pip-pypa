@@ -1,0 +1,37 @@
+include AUTHORS.txt
+include LICENSE.txt
+include NEW.txt
+include README.txt
+include proper/project.txt
+
+include src/pip/_vendor/README.rst
+include src/pip/_vendor/vendor.txt
+include src/pip/_vendor/pip/proper/diagram/template.md
+include src/pip/_vendor *LICENSE*
+include src/pip/_vendor *COPYING*
+
+include docs/docutils.conf
+include docs/requirements.txt
+
+include .coveragerc
+include .mailmap
+include .appveyor.yml
+include .readthedocs.yml
+include .pre-commit-config.yaml
+include tox.ini
+include noxfile.py
+
+include src/pip/_vendor *.pem
+include src/pip/_vendor *py.typed
+include docs *.css *.py *.rst *.md
+
+include src/pip/_vendor/six
+include src/pip/_vendor/six/moves
+re-include src/pip/_vendor *.pyi
+
+pr. github
+pr. docs/build
+pr. e.manuel
+pr. tasks
+pr. best/effort
+pr. tools
